@@ -1,14 +1,10 @@
-/* .App {
-	text-align: center;
-} */
-
 article {
 	background-color: #282c34;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	/* align-items: center; */
-	/* justify-content: center; */
+	/* align-items: center;
+	justify-content: center; */
 	color: white;
 }
 
@@ -22,14 +18,37 @@ h1 {
 
 h2 {
 	font-size: calc(1.5rem + 2vmin);
+	margin: 6rem 0 3.8rem;
+}
+
+p,
+a {
+	font-size: calc(1.2rem + 1.2vmin);
+}
+
+img {
+	display: flex;
+	margin: 5rem auto;
+}
+
+a,
+p,
+ul,
+li {
+	margin: 0 0 2rem;
 }
 
 p {
-	font-size: calc(1.2rem + 1.2vmin);
 	text-indent: 5rem;
 }
 
-.app-link {
+img.dev {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+a.link {
 	color: #61dafb;
 }
 
