@@ -3,7 +3,7 @@ import Header from './components/Header/Header';
 import devImg from './assets/img/requisitos-desenvolvimento.svg';
 import catCreepy from './assets/gifs/smiling-cat-creepy.gif';
 import confetti from './assets/gifs/confetti-celebration.gif';
-import alice from './assets/gifs/alice-falling.gif';
+// import alice from './assets/gifs/alice-falling.gif';
 import eyesOnYou from './assets/gifs/i-got-my-eye-on-you.gif';
 
 function App() {
