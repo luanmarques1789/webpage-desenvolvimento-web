@@ -1,9 +1,8 @@
 import './App.css';
 import Header from './components/Header/Header';
-import devImg from './assets/img/requisitos-desenvolvimento.svg';
+import devImg from './assets/img/requisitos-desenvolvimento.jpg';
 import catCreepy from './assets/gifs/smiling-cat-creepy.gif';
 import confetti from './assets/gifs/confetti-celebration.gif';
-// import alice from './assets/gifs/alice-falling.gif';
 import eyesOnYou from './assets/gifs/i-got-my-eye-on-you.gif';
 
 function App() {
@@ -15,17 +14,18 @@ function App() {
 				<section>
 					<p>
 						Dado a abrangência do ciberespaço e a presença das ciberculturas
-						(bolhas sociais) na internet, percebe-se cada vez mais há pessoas
-						interessadas na bolha de desenvolvimento web pelo Brasil. Pessoas
-						que, de alguma forma, se sentiram interessadas e influenciadas pela
-						cultura da comunidade de desenvolvedores e programadores na
-						internet.
+						(bolhas sociais) na internet, percebe-se que cada vez mais há
+						pessoas interessadas na bolha de desenvolvimento web pelo Brasil.
+						Pessoas que, de alguma forma, se sentiram interessadas e
+						influenciadas pela cultura da comunidade de desenvolvedores e
+						programadores na internet.
 					</p>
 					<p>
-						Assim, esse post vem ser um guia útil para aqueles que estão
-						perdidos e confusos, sobretudo a respeito daqueles conteúdos que
-						precisam estudar e praticar, mas querem se tornar desenvolvedores e
-						fazerem parte desta comunidade incrível do desenvolvimento web.
+						Assim, esse <em>post</em> vem ser um guia útil para aqueles que
+						estão perdidos e confusos, sobretudo a respeito daqueles conteúdos
+						que precisam estudar e praticar, mas querem se tornar
+						desenvolvedores e fazerem parte desta comunidade incrível do
+						desenvolvimento web.
 					</p>
 					<p>
 						Portanto, ao término desta introdução, te desejo uma boa leitura!
@@ -44,21 +44,17 @@ function App() {
 						Contudo, não se preocupe, porque eu vou dar uma palinha de como as
 						coisas funcionam.
 					</p>
-					{/* <img src={alice} alt="Alice caindo em um buraco" /> */}
 					<p>
-						Basicamente, desenvolvedor web é quem desenvolve websites ou
-						webpages, desde páginas de blog (como esta que você está lendo) até
-						sistemas complexos, como os serviços das empresas Google e Facebook.
-						Todo website/webpage está hospedado, isto é, armazenado em um lugar
-						denominado servidor web que permitirá você fazer uma requisição
+						Basicamente, <strong>desenvolvedor web</strong> é quem desenvolve{' '}
+						<em>websites</em> ou <em>webpages</em>, desde páginas de blog (como
+						esta que você está lendo) até sistemas complexos, como os serviços
+						das empresas Google e Facebook. Todo website/webpage está hospedado,
+						isto é, armazenado em um lugar denominado servidor web -{' '}
+						<em>webserver</em> - que permitirá você fazer uma requisição
 						(pedido) de uma cópia, por exemplo, daquele vídeo de gatinhos para a
-						sua máquina local (computador/PC).{' '}
+						sua máquina local (computador/PC).
 					</p>
-					<img
-						src={catCreepy}
-						alt="Arrepiante gato sorridente"
-						style={{ height: '350px', width: 'auto' }}
-					/>
+					<img src={catCreepy} alt="Arrepiante gato sorridente" />
 				</section>
 
 				<section>
@@ -76,9 +72,9 @@ function App() {
 						experimentando ambas.
 					</p>
 					<p>
-						<span className="marker">Desenvolvimento Front-end:</span> a parte
+						<span className="marker1">Desenvolvimento Front-end:</span> a parte
 						em que o usuário visualiza e interage com o site, sendo referida
-						muito das vezes por client-side, isto é, o lado do cliente
+						muito das vezes por <em>client-side</em>, isto é, o lado do cliente
 						(usuário). HTML, CSS e JavaScript são as linguagens que formam o
 						tripé e a base do desenvolvimento lado cliente, elas são
 						responsáveis, respectivamente, pela estrutura, estilo/design e
@@ -90,13 +86,13 @@ function App() {
 					</p>
 
 					<p>
-						<span className="marker">Desenvolvimento Back-end:</span> sendo
+						<span className="marker1">Desenvolvimento Back-end:</span> sendo
 						considerada a parte “invisível” ou “intocável” pelo usuário, o
-						back-end é o server-side (lado servidor) do website. Ele é o lugar
-						por onde o desenvolvedor back-end cria as rotas das requisições
-						feitas pelo lado cliente; faz conexão com o banco de dados; organiza
-						e armazena os dados sensíveis dos usuários; e escreve API’s e
-						bibliotecas para a aplicação.
+						back-end é o <em>server-side</em> (lado servidor) do website. Ele é
+						o lugar por onde o desenvolvedor back-end cria as rotas das
+						requisições que são feitas pelo lado cliente; faz conexão com o
+						banco de dados; organiza e armazena os dados sensíveis dos usuários;
+						e escreve API’s e bibliotecas para a aplicação.
 					</p>
 				</section>
 
@@ -111,7 +107,7 @@ function App() {
 					</p>
 					<p>
 						Ademais, através da imagem abaixo, eu estruturei os conhecimentos
-						necessários com base no roadmap de Kamran Ahmed.
+						necessários com base no <em>roadmap</em> de Kamran Ahmed.
 					</p>
 					<img className="dev" src={devImg} alt="" />
 					<p>
@@ -151,7 +147,7 @@ function App() {
 						desenvolvedores chamada GitHub. Portanto, nada de usar o Drive da
 						Google para os seus projetos, viu?!
 					</p>
-					<img src={eyesOnYou} alt="Fitando os olhos em vocÊ" />
+					<img src={eyesOnYou} alt="Fitando os olhos em você" />
 					<p>
 						Embora eu tenha comentado sobre websites/webpages e webservers, é
 						importante estudar a fundo como a internet funciona: entender o
@@ -180,13 +176,13 @@ function App() {
 				<section>
 					<h2>Considerações Finais</h2>
 					<p>
-						É preciso frisar que esse post não é nada mais ou nada menos que um
-						conjunto de opiniões (minhas e de outros desenvolvedores) com uma
-						pitada de experiência própria.
+						É preciso frisar que esse <em>post</em> não é nada mais ou nada
+						menos que um conjunto de opiniões (minhas e de outros
+						desenvolvedores) com uma pitada de experiência própria.
 					</p>
 					<p>
 						Para aqueles que chegaram nesse artigo e leram até aqui, eu deixo o
-						meu parabéns e agradecimento.
+						meus parabéns e agradecimento.
 					</p>
 					<img
 						src={confetti}
@@ -210,8 +206,9 @@ function App() {
 								rel="noopener"
 								href="https://developer.mozilla.org/pt-BR/docs/Web/Guide/Introduction_to_Web_development"
 							>
-								content
-							</a>
+								Introdution to Web development
+							</a>{' '}
+							(MDN)
 						</li>
 						<li>
 							<a
@@ -220,8 +217,9 @@ function App() {
 								rel="noopener"
 								href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web"
 							>
-								content
-							</a>
+								Getting started with the web
+							</a>{' '}
+							(MDN)
 						</li>
 						<li>
 							<a
@@ -230,8 +228,9 @@ function App() {
 								rel="noopener"
 								href="https://roadmap.sh/"
 							>
-								content
-							</a>
+								Developer Roadmap
+							</a>{' '}
+							by Kamran Ahmed
 						</li>
 						<li>
 							<a
@@ -240,8 +239,9 @@ function App() {
 								rel="noopener"
 								href="https://www.youtube.com/watch?v=O76ZfAIEukE&list=PLGPYJFbQt4KQSo58W7edfsGwJzsLQ5ADS"
 							>
-								content
-							</a>
+								Playlist - Começando aos 40
+							</a>{' '}
+							(Fábio Akita)
 						</li>
 					</ul>
 				</section>
@@ -261,8 +261,9 @@ function App() {
 								rel="noopener"
 								href="https://github.com/kamranahmedse/developer-roadmap"
 							>
-								content
-							</a>
+								GitHub - Developer roadmap
+							</a>{' '}
+							by Kamran Ahmed
 						</li>
 						<li>
 							<a
@@ -271,8 +272,9 @@ function App() {
 								rel="noopener"
 								href="https://roadmap.sh/"
 							>
-								content
-							</a>
+								Site - Developer roadmap
+							</a>{' '}
+							by Kamran Ahmed
 						</li>
 						<li>
 							<a
@@ -281,8 +283,9 @@ function App() {
 								rel="noopener"
 								href="https://www.geeksforgeeks.org/frontend-vs-backend/"
 							>
-								content
-							</a>
+								Frontend vs Backend
+							</a>{' '}
+							(GeeksforGeeks)
 						</li>
 						<li>
 							<a
@@ -291,8 +294,9 @@ function App() {
 								rel="noopener"
 								href="https://www.digitalhouse.com/br/blog/guia-de-desenvolvimento-web-tudo-o-que-voce-precisa-saber-antes-de-comecar-a-programar"
 							>
-								content
-							</a>
+								Guia de desenvolvimento web
+							</a>{' '}
+							(DigitalHouse)
 						</li>
 						<li>
 							<a
@@ -301,8 +305,9 @@ function App() {
 								rel="noopener"
 								href="https://developer.mozilla.org/en-US/docs/Glossary/Algorithm"
 							>
-								content
-							</a>
+								Glossary: Algorithm
+							</a>{' '}
+							(MDN)
 						</li>
 						<li>
 							<a
@@ -311,8 +316,9 @@ function App() {
 								rel="noopener"
 								href="https://developer.mozilla.org/en-US/docs/Glossary/Data_structure"
 							>
-								content
-							</a>
+								Glossary: Data Structure
+							</a>{' '}
+							(MDN)
 						</li>
 						<li>
 							<a
@@ -321,8 +327,9 @@ function App() {
 								rel="noopener"
 								href="https://www.programiz.com/dsa"
 							>
-								content
-							</a>
+								DSA - Data Structure and Algorithms
+							</a>{' '}
+							(Programiz)
 						</li>
 					</ul>
 				</section>
