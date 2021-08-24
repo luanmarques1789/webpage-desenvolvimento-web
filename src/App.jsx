@@ -4,6 +4,7 @@ import devImg from './assets/img/requisitos-desenvolvimento.jpg';
 import catCreepy from './assets/gifs/smiling-cat-creepy.gif';
 import confetti from './assets/gifs/confetti-celebration.gif';
 import eyesOnYou from './assets/gifs/i-got-my-eye-on-you.gif';
+import Summary from './components/Summary/Summary';
 
 function App() {
 	return (
@@ -32,8 +33,10 @@ function App() {
 					</p>
 				</section>
 
+				<Summary></Summary>
+
 				<section>
-					<h2>
+					<h2 id="sec1">
 						Desenvolvedores Web: O Que São, Onde Vivem E Do Que Se Alimentam?
 					</h2>
 					<p>
@@ -58,7 +61,7 @@ function App() {
 				</section>
 
 				<section>
-					<h2>Front-end VS Back-end</h2>
+					<h2 id="sec2">Front-end VS Back-end</h2>
 					<p>
 						Nessa área, você tem 3 escolhas possíveis: ser desenvolvedor
 						front-end, back-end ou os dois (full-stack). Os dois primeiros
@@ -97,7 +100,7 @@ function App() {
 				</section>
 
 				<section>
-					<h2>Primeiros Passos</h2>
+					<h2 id="sec3">Primeiros Passos</h2>
 					<p>
 						Tanto para aqueles que desejam seguir uma carreira como um
 						desenvolvedor fron-end ou back-end, ambos precisam conhecer uma
@@ -174,7 +177,7 @@ function App() {
 				</section>
 
 				<section>
-					<h2>Considerações Finais</h2>
+					<h2 id="sec4">Considerações Finais</h2>
 					<p>
 						É preciso frisar que esse <em>post</em> não é nada mais ou nada
 						menos que um conjunto de opiniões (minhas e de outros
@@ -191,7 +194,7 @@ function App() {
 				</section>
 
 				<section>
-					<h2>Recomendações</h2>
+					<h2 id="sec5">Recomendações</h2>
 					<p>
 						Como esse guia trata apenas do básico das carreiras no front e
 						back-end e não apresentou as tecnologias específicas de cada área.
@@ -247,7 +250,7 @@ function App() {
 				</section>
 
 				<section>
-					<h2>Referências Bibliográficas</h2>
+					<h2 id="sec6">Referências Bibliográficas</h2>
 					<p>
 						Abaixo deixo as referências dos sites que, de algum modo, me
 						ajudaram a escrever o conteúdo desta página. Dê uma conferida nelas

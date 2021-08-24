@@ -6,7 +6,6 @@ const HeaderWrapper = styled.header`
 	display: flex;
 	flex-flow: column;
 	padding: 2rem 0 3.2rem;
-	/* background-color: #8080808b; */
 
 	img {
 		max-width: 250px;
