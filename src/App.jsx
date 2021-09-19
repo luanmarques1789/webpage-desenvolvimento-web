@@ -1,10 +1,13 @@
 import './App.css';
+
+// components
 import Header from './components/Header/Header';
 import devImg from './assets/img/requisitos-desenvolvimento.jpg';
 import catCreepy from './assets/gifs/smiling-cat-creepy.gif';
 import confetti from './assets/gifs/confetti-celebration.gif';
 import eyesOnYou from './assets/gifs/i-got-my-eye-on-you.gif';
 import Summary from './components/Summary/Summary';
+import Footer from './components/Footer/Footer';
 
 function App() {
 	return (
@@ -337,6 +340,7 @@ function App() {
 					</ul>
 				</section>
 			</main>
+			<Footer />
 		</article>
 	);
 }
