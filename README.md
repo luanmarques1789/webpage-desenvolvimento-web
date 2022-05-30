@@ -1,6 +1,10 @@
 # WEBPAGE-DESENVOLVIMENTO-WEB
 
-### Inspiration Websites
+## About
+
+This webpage has developed as a partial requirement for Geography subject's evaluation.
+
+## Inspiration Websites
 
 - [Awwwards' blog](https://www.awwwards.com/prometheus-by-active-theory-wins-site-of-the-month-may-2021.html)
 - [Lotus Vancouver](https://lotusvancouver.com/)
